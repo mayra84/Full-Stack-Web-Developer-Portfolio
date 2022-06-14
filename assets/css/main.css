@@ -51,87 +51,10 @@ table {
 	border-spacing: 0;
 }
 
-h2 {
-	display: block;
-  /* font-weight: 900; */
-  overflow: hidden;
-  white-space: nowrap;
-  /* position: relative; */
-  /* width: 550px; */
-	animation: open 2s ease-in-out;
-	/* animation-iteration-count: 3 !important; */
-	/* padding-left: 5rem; */
-	top: 0.2rem;
-  left: 270px;
-}
-
-@keyframes open {
-	0% {
-	  /* top: 0.2rem; */
-	  width: 0px;
-	}
-	/* 10% {
-	  width: 10px;
-	}
-	50% {
-		width: 500px;
-	}
-	75% {
-	  width: 750px;
-	} */
-	100% {
-	  /* top: 0.2rem; */
-	  width: 1000px;
-	}
-	/* 33% {
-	  top: 0.2rem;
-	  width: 0;
-	}
-	35% {
-	  top: 0.2rem;
-	  width: 0;
-	}
-	38% {
-	  top: -4.5rem;
-	  
-	}
-	48% {
-	  top: -4.5rem;
-	  width: 190px;
-	}
-	62% {
-	  top: -4.5rem;
-	  width: 190px;
-	}
-	66% {
-	  top: -4.5rem;
-	  width: 0;
-	  text-indent: 0;
-	}
-	71% {
-	  top: -9rem;
-	  width: 0;
-	  text-indent: 5px;
-	}
-	86% {
-	  top: -9rem;
-	  width: 285px;
-	}
-	95% {
-	  top: -9rem;
-	  width: 285px;
-	}
-	98% {
-	  top: -9rem;
-	  width: 0;
-	  text-indent: 5px;
-	} */
-	/* 100% {
-	  top: 0;
-	  width: 0;
-	  text-indent: 0;
-	} */
-  }
+/* .animate__animated.animate__bounce {
+	--animate-duration: 1s;
+	--animation-delay: 5s;
+  } */
 
 body {
 	-webkit-text-size-adjust: none;
